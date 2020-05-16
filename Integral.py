@@ -50,7 +50,7 @@ class integral():
 		plt.plot(np.linspace(a,b,n),np.array([f(i) for i in np.linspace(a,b,n)]))
 		plt.show()
 		'''
-		return ((b-a)**2)*s/n
+		return ((b-a)*h)*s/n
 
 def f1(x):
 	return 2/(1 + x**2)
